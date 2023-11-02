@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_alphabit - prints the alphabit in lower case followed by a new line
+ * print_alphabet - prints the alphabet in lower case followed by a new line
  * Return: 0
  */
 
-void print_alphabit(void){
+void print_alphabet(void){
 	char letter;
 	for(letter='a';letter<='z';letter++)
 		{_putchar(letter);}
