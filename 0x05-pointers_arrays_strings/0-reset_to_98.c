@@ -8,7 +8,7 @@
 
 void reset_to_98(int *n)
 {
-	if (*n != NULL)
+	if (n != NULL)
 	{
 		*n = 98;
 	}
